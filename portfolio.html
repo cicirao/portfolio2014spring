@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Cici R</title>
+
+		<!--Viewport meta tag to prevent iPhone from scaling my page -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/reveal.css" />
+		<!--Normalize hide address bar for iOS and Android
+ -->
+ 		<script src="js/hideaddressbar.js"></script>
+
+		<!--Add media query support for IB8 and under. Must place media queries in external stylesheet
+ -->
+ 		<script src="js/respond.min.js"></script>
+ 		<script type="text/javascript" src="//use.typekit.net/rsn1zqj.js"></script>
+ 		<script src="http://code.jquery.com/jquery-1.6.min.js"></script>
+ 		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('nav').hover(function() {
+				$('nav').animate({right:'+=24em'}, 300);
+			},
+			function() {
+				$('nav').animate({right:'-=24em'}, 300);
+				}
+			);
+		});
+		</script>
+ 		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		 <!--[if lt IE 9]>
+		<style>
+		.reveal-modal-bg{filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000,endColorstr=#cc000000);}
+		</style>
+		<![endif]-->
+  </head>
+  <body>
+  	<div id="wrap">
+  		<div id="nav">
+  			<nav>
+  				<!-- <div id="block"></div> -->
+  				<ul>
+  					<li><a href="#container-contact">Contact</a></li>
+  					<li><a href="#container-portfolio">Portfolio</a></li>
+  					<li><a href="#container-intro">Intro</a></li>
+  					<li><a href="#container-welcome">Hello</a></li>
+  					<li id="hold"></li>
+  				</ul>
+  			</nav>
+  		</div>
+  		<div id="container-welcome">
+  			<section id="welcome">
+	  			<header>
+	  				<h1>Hello, there!</h1>
+	  			</header>
+	  			<p>Cici R. is on the way</p>
+  			</section>
+  			<div id="jump">
+  				<img src="" />
+<!--SVG is under consideration-->
+  			</div>
+  		</div>
+			<div id="container-intro">
+				<section id="intro">
+					<header>A Little About Me</header>
+					<figure>
+						<img src="imgs/profile.png">
+					</figure>
+					<article>
+						<p><br>Hi! I'm Cici, a student studying in Information Architecture program at Chicago with a bachelor degree of Software Engineering. I'm interested in web design, user experience, and photography. <br><br>I came to Chicago since Aug. 11, 2013, from Wuhan, China, chasing my user experience dream which I think could be realized in United States. It’s hard as well as fun to face to conflicts in inter-cutural communication everyday.<br><br>I love rock music, doing exercise and cooking Chinese food. I love travel and want to see various sceneries around the world. </p>
+					</article>
+				</section>
+			</div>
+			<div id="cv">
+				<a href="Xi's Resume.pdf" target="_blank">DOWNLOAD MY RESUME</a>
+			</div>  		
+			<div id="container-portfolio">
+				<section id="portfolio">
+					<header>LATEST WORK</header>
+					<article class="group">
+						<ul>
+							<li style="background:url('imgs/isr.png');">
+								<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
+									<div class="description">
+										<br>
+										<br>
+										<br>
+										<h4>2014 World Cup</h4>
+										<p>Information Visualization</p>
+									</div>
+								</a>
+								<div id="myModal" class="reveal-modal">
+									<div class="scroll">
+										<header style="font-size:2.25em;">2014 Brazil World Cup -- Fixure Chart</header>
+										<span>Information Visualization</span>
+										<div class="scroll-imgs">
+											<h5>Tablet Edition</h5>
+											<a href="imgs/2014BRAZILforTablet.png" target="_blank"><img src="imgs/worldcup.png"></a>
+									</div>
+										<div class="scroll-imgs">
+											<h5>TV Edition</h5>
+												<a href="imgs/TVall.png" target="_blank"><img src="imgs/TVall.png"></a>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</div>
+							</li>
+							<li style="background:url('imgs/ux.png');">
+								<a href="#" class="big-link" data-reveal-id="myUx" data-animation="fade">
+									<div class="description">
+										<br>
+										<br>
+										<br>
+										<h4>SortCPS</h4>
+										<p>User Experience Research</p>
+									</div>
+								</a>
+								<div id="myUx" class="reveal-modal">
+									<div class="scroll">
+										<header style="font-size:2.25em;">SortCPS -- Choose Chicago Public School</header>
+										<span>User Experience Research</span>
+										<div class="scroll-imgs">
+											<h5>Flow Model</h5>
+											<a href="imgs/flowModel2.png" target="_blank" ><img src="imgs/ux1.jpg"></a>
+									</div>
+										<div class="scroll-imgs">
+											<h5>Wireframe</h5>
+												<a href="imgs/wireframe.jpg" target="_blank" ><img src="imgs/ux2.jpg"></a>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</div>
+							</li>
+							<li style="background:url('imgs/dd.png');">
+								<a href="DD.pdf" target="_blank">
+									<div class="description">
+										<div class="description">
+											<br>
+											<br>
+											<br>
+											<h4>Document Design</h4>
+											<p>PDF Portfolio</p>
+										</div>
+								</a>
+							</li>
+							<li style="background:url('imgs/ihome.png');">
+								<a href="#" class="big-link" data-reveal-id="myHome" data-animation="fade">
+									<div class="description">
+										<br>
+										<br>
+										<br>
+										<h4>iHome</h4>
+										<p>Android App Design</p>
+									</div>
+								</a>
+								<div id="myHome" class="reveal-modal">
+									<div class="scroll">
+										<header style="font-size:2.25em;">iHome -- House Decoration Platform</header>
+										<span>Android App Design</span>
+										<div class="scroll-imgs">
+											<h5>Flow Model</h5>
+											<a href="imgs/ihomeFlow.png" target="_blank" ><img src="imgs/ihomeFlow.png"></a>
+									</div>
+										<div class="scroll-imgs">
+											<h5>Interface</h5>
+												<a href="imgs/ihomeUI.png" target="_blank" ><img src="imgs/ihomeUI.png"></a>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</div>
+							</li>
+							<li style="background:url('imgs/droplet.png');">
+								<a href="#" class="big-link" data-reveal-id="myDroplet" data-animation="fade">
+									<div class="description">
+										<br>
+										<br>
+										<br>
+										<h4>Droplet</h4>
+										<p>Mobile App Design</p>
+									</div>
+								</a>
+								<div id="myDroplet" class="reveal-modal">
+									<div class="scroll">
+										<header style="font-size:2.25em;">Droplet -- Be a better me</header>
+										<span></span>
+										<div class="scroll-imgs" style="width: 32%;float: left;">
+											<h5><br></h5>
+											<a href="imgs/droplet1.png" target="_blank" ><img src="imgs/droplet1.jpg"></a>
+										</div>
+										<div class="scroll-imgs" style="width: 32%;float: left;padding-left: 2%;padding-right: 2%;">
+											<h5>Interface</h5>
+											<a href="imgs/droplet2.png" target="_blank" ><img src="imgs/droplet2.jpg"></a>
+										</div>
+										<div class="scroll-imgs" style="width: 32%;float: left;">
+											<h5><br></h5>
+											<a href="imgs/droplet3.png" target="_blank" ><img src="imgs/droplet3.jpg"></a>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</div>
+							</li>
+							<li style="background:url('imgs/3.jpg');">
+								<a href="#" class="big-link" data-reveal-id="myJob" data-animation="fade">
+									<div class="description">
+										<br>
+										<br>
+										<br>
+										<h4>Career Affair</h4>
+										<p>Mobile App Design</p>
+									</div>
+								</a>
+								<div id="myJob" class="reveal-modal">
+									<div class="scroll">
+										<header style="font-size:2.25em;">Career Affair Query System</header>
+										<span></span>
+										<div class="scroll-imgs" style="width: 32%;float: left;">
+											<h5><br></h5>
+											<span></span>
+											<img src="imgs/job1.jpg">
+										</div>
+										<div class="scroll-imgs" style="width: 32%;float: left;padding-left: 2%;padding-right: 2%;">
+											<h5>Interface</h5>
+											<span><a href="http://www.anzhi.com/soft_800926.html" target="_blank" style="text-decoration: underline; color: rgb(62, 146, 208);">Download</a></span>
+											<img src="imgs/job2.jpg">
+										</div>
+										<div class="scroll-imgs" style="width: 32%;float: left;">
+											<h5><br></h5>
+											<span></span>
+											<img src="imgs/job3.jpg">
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</article>
+				</section>
+			</div>
+			<!-- <div id="container-contact">
+				<section id="contact">
+					<header>Email Me</header>
+					<form id="email-form" action="MAILTO:cicirao.hust@gmail.com" method="post" enctype="text/plain">
+						<input id="email" type="text" value="Email" name="email">
+						<input id="name" type="text" value="Name" name="name">
+						<textarea id="content" placeholder="Hi Cici!" name="ContactForm[message]" id="ContactForm_message"></textarea>
+						<input id="submit" type="button" value="SEND" name="submit" onClick="document.location.reload(true)">
+					</form>
+				</section>
+			</div> -->
+			<div id="container-footer">
+				<div id="sns">
+					<h2>Find Me on SNS!</h2>
+					<ul>
+						<li id="github"><a href="https://github.com/cicirao"></a></li>
+						<li id="twitter"><a href="https://twitter.com/"></a></li>
+						<li id="linkedin"><a href="https://www.linkedin.com/profile/view?id=196024478&trk=nav_responsive_tab_profile_pic"></a></li>
+						<li id="weibo"><a href="http://www.weibo.com/ciciinhust/home?wvr=5"></a></li>
+						<li id="douban"><a href="http://www.douban.com/people/ciciinhust/"></a></li>
+					</ul>
+				<footer>
+					<p>Copyright © Xi Rao 2014</p>
+				</footer>
+				</div>
+			</div>
+  	</div>
+  </body>
+</html>
