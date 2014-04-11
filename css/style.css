@@ -549,7 +549,7 @@ footer p {
 	    }
 }
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 45em) and (min-width: 30em) {
 	    body {
 	        font-size: 70.3125%;
 	        }
@@ -568,6 +568,10 @@ footer p {
 	    }
 	    #welcome,#intro,#portfolio,#contact,#sns {
 	    	width: 88%;
+	    	top: 4%;
+	    }
+	    #container-footer {
+	    	height: 17.6em;
 	    }
 	    .group li{
 	    	width: 47%;
@@ -580,6 +584,55 @@ footer p {
 	    #sns li {
 	    	width: 6.75em;
 	    	height: 6.75em;
+	    }
+	    .scroll-imgs {
+	    	width: 100% !important;
+	    	padding: 0 !important;
+	    }
+}
+
+@media screen and (max-width: 30em) {
+	    body {
+	        font-size: 70.3125%;
+	        }
+	    h1 {
+	    	font-size: 6.4em;
+	    }
+	    p, a {
+	    	font-size: 1.35em;
+	    }
+	    figure, article {
+	    	position: relative;
+	    	top: 1em;
+	    }
+	    figure img {
+	    	width: 7.6em;
+	    }
+	    #container-welcome, #container-intro, #container-portfolio {
+	    	width: 100%;
+	    }
+	    #container-portfolio {
+	    	height: 108em;
+	    }
+	    #container-footer {
+	    	height: 16em;
+	    }
+	    #welcome,#intro,#portfolio,#sns {
+	    	width: 88%;
+	    	top: 2em;
+	    }
+	    .group li{
+	    	width: 84%;
+	    	margin: 1em 8%;
+	    	height: 14.4em;
+	    }
+	    #sns li {
+	    	width: 4.75em;
+	    	height: 4.75em;
+	    }
+	    .scroll-imgs {
+	    	width: 100% !important;
+	    	padding: 0 !important;
 	    }
 }
 
