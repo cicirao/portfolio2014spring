@@ -619,7 +619,10 @@ footer p {
 	    }
 	    #welcome,#intro,#portfolio,#sns {
 	    	width: 88%;
-	    	top: 2em;
+	    	top: 2em !important;
+	    }
+	    #intro header, #portfolio header {
+	    	font-size: 2.75em !important;
 	    }
 	    .group li{
 	    	width: 84%;
