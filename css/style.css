@@ -516,8 +516,11 @@ footer p {
 	        font-size: 100%;
 	        }
 	    h1 {
-	    	font-size: 9em;
+	    	font-size: 4.5em;
 	    }
+	h1 a {
+		color:#fff;
+	}
 	    p, a{
 	    	font-size: 1.125em;
 	    }
@@ -553,7 +556,7 @@ footer p {
 	        font-size: 70.3125%;
 	        }
 	    h1 {
-	    	font-size: 9em;
+	    	font-size: 4.5em;
 	    }
 	    p, a {
 	    	font-size: 1.2em;
@@ -590,7 +593,7 @@ footer p {
 	        font-size: 70.3125%;
 	        }
 	    h1 {
-	    	font-size: 7.6em;
+	    	font-size: 3.8em;
 	    }
 	    p, a {
 	    	font-size: 1.35em;
@@ -632,6 +635,10 @@ footer p {
 	    h1 {
 	    	font-size: 6.4em;
 	    }
+	h1 a {
+		color:#fff;
+		text-decoration: underline;
+	}
 	    p, a {
 	    	font-size: 1.35em;
 	    }
@@ -639,7 +646,7 @@ footer p {
 	    	position: relative;
 	    }
 	    figure img {
-	    	width: 7.6em;
+	    	width: 3.8em;
 	    }
 	    #container-welcome, #container-intro, #container-portfolio {
 	    	width: 100%;
