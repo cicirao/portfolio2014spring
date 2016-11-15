@@ -60,7 +60,10 @@ body {
 	text-align: center;
 	font-size: 71.111111111%;
 }
-
+h1 a {
+	color:#fff;
+	text-decoration: underline white;
+}
 
 article,
 aside,
@@ -518,9 +521,7 @@ footer p {
 	    h1 {
 	    	font-size: 4.5em;
 	    }
-	h1 a {
-		color:#fff;
-	}
+
 	    p, a{
 	    	font-size: 1.125em;
 	    }
@@ -637,7 +638,7 @@ footer p {
 	    }
 	h1 a {
 		color:#fff;
-		text-decoration: underline black;
+		text-decoration: underline white;
 	}
 	    p, a {
 	    	font-size: 1.35em;
