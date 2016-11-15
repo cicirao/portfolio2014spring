@@ -637,7 +637,7 @@ footer p {
 	    }
 	h1 a {
 		color:#fff;
-		text-decoration: underline;
+		text-decoration: underline black;
 	}
 	    p, a {
 	    	font-size: 1.35em;
